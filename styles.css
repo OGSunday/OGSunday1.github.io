@@ -1,0 +1,180 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Square Peg', cursive;
+  font-size: 3.125rem;
+  color: #395B64;
+
+
+}
+
+hr{
+  margin: 0;
+}
+h1{
+    color: black;
+    margin: 0;
+  }
+
+.second-row{
+  color: #395B64;
+  line-height: 0px;
+  margin: 0, 0, 20px, 0;
+}
+
+
+h2{
+    font-size: 3.5rem;
+    color: black;
+    }
+
+h3{
+    font-size: 3.5rem;
+      color: black;
+  }
+
+.logo{
+  position: relative;
+  margin:auto;
+  height: 800px;
+  display: block;
+  text-align: center;
+  background-color: #E7F6F2;
+
+}
+
+.mountain {
+  max-width: 500px;
+  max-height: 500px;
+  text-align: center;
+}
+
+  hr.bottom-hr{
+    border: dotted grey 8px;
+    border-bottom: none;
+    width: 500px;
+    position: relative;
+    left: 2020px;
+    opacity: 50%;
+  }
+
+
+}
+.top-cloud {
+    max-width: 250px;
+    max-height: 250px;
+    position: absolute;
+    top: 200px;
+    left: 2000px;
+
+
+
+}
+.bottom-cloud {
+    max-width: 250px;
+    max-height: 250px;
+    position: absolute;
+    top: 550px;
+    right: 1900px;
+    transform: rotateY(180deg);
+  }
+
+.ant{
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin: 50px;
+  position: relative;
+  top: 80px;
+}
+
+.hacker {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  top: 50px;
+
+}
+
+.message {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+
+}
+
+.skill-row{
+  text-align: justify;
+  text-justify: inter-word;
+  width: 1000px;
+  margin: 100px auto 100px auto;
+
+
+}
+
+.contact-me{
+
+
+}
+
+.contact-me2{
+  box-shadow: 0px 10px 14px -7px #11999e;
+	background-color:#11999e;
+	border-radius:16px;
+  border-style: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Square Peg', cursive;
+	font-size:40px;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #11999e;
+  display: relative;
+  bottom: 70px;
+  margin: 20px;
+
+}
+
+.btn{
+    text-decoration: none;
+    color: #1a001a;
+    opacity: 0.9 ;
+
+
+}
+.btn:hover{
+  color: white;
+  transition: 0.5s;
+
+}
+
+.bottom-container {
+  height: 400px;
+  background-color: #30E3CA;
+
+}
+.footer-link{
+  position: relative;
+  top: 100px;
+  margin: 100px 50px 100px 50px;
+  color: #11999E;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.bottom-text{
+  position: relative;
+  top: 100px;
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+
+}
